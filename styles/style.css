@@ -1,0 +1,95 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Dela Gothic One', sans-serif;
+font-family: 'Red Rose', serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+   background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/assets/pexels-maxyne-barcel-10402282\ 1.png);
+   background-attachment: fixed;
+   background-size: cover; 
+}
+/* Navigation bar  */
+nav{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+   margin: 12px 30px;
+   padding: 0 60px 0 60px;
+}
+/* Navigation unordered list  */
+nav ul{
+    display: flex  ;
+    gap: 62px;  
+    
+}
+.logo, .listitem{
+    cursor: pointer;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffc233;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: "Red Rose" ;
+}
+/* For navigation section button  */
+.nav-button{
+color:white;
+background-color: #ff505f;
+border-radius: 4px;
+padding: 7px 30px;
+border: none;
+line-height: 16px;
+cursor: pointer;
+font-family: "Red Rose" ;
+font-weight: 600;
+}
+/* Hero-Section */
+.hero-section{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 48px;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 1154px;
+}
+/* Hero-Section-Heading  */
+.hero-section h1{
+    font-family: "Dela Gothic One",cursive;
+    font-weight: 600;
+    font-size: 60px;
+    color: #ffc233;
+   margin:10px 0 0 63px;
+   
+}
+/* Hero-Section-Button  */
+.hero-section button{
+    color:white;
+    background-color:#ff505f;
+    border-radius: 2px;
+    padding: 13px 42px;
+    width: fit-content;
+    margin: 15px 0 0 65px;
+    border: none;
+    font-family: "Red Rose";
+    font-weight: 700;
+    font-size: 15px;
+}
+.footer{
+display: flex;
+}
+/* Footer image  */
+.footer img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 20px;
+    margin: 0 2px 20px 1090px;
+}
+
